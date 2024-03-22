@@ -1,0 +1,75 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/home/harry/.meteor/packages/mongo/2.0.0-beta300.6/web.browser/local_collection_driver.js",
+        "/home/harry/.meteor/packages/mongo/2.0.0-beta300.6/web.browser/collection.js",
+        "/home/harry/.meteor/packages/mongo/2.0.0-beta300.6/web.browser/connection_options.js",
+        "/home/harry/.meteor/packages/mongo/2.0.0-beta300.6/web.browser/doc_fetcher.js",
+        "/home/harry/.meteor/packages/mongo/2.0.0-beta300.6/web.browser/mongo_driver.js",
+        "/home/harry/.meteor/packages/mongo/2.0.0-beta300.6/web.browser/mongo_utils.js",
+        "/home/harry/.meteor/packages/mongo/2.0.0-beta300.6/web.browser/observe_multiplex.js",
+        "/home/harry/.meteor/packages/mongo/2.0.0-beta300.6/web.browser/oplog_observe_driver.js",
+        "/home/harry/.meteor/packages/mongo/2.0.0-beta300.6/web.browser/oplog_tailing.js",
+        "/home/harry/.meteor/packages/mongo/2.0.0-beta300.6/web.browser/oplog_v2_converter.js",
+        "/home/harry/.meteor/packages/mongo/2.0.0-beta300.6/web.browser/polling_observe_driver.js",
+        "/home/harry/.meteor/packages/mongo/2.0.0-beta300.6/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/home/harry/.meteor/packages/reactive-var/1.0.13-beta300.6/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/home/harry/.meteor/packages/es5-shim/4.8.1-beta300.6/web.browser/client.js",
+        "/home/harry/.meteor/packages/es5-shim/4.8.1-beta300.6/web.browser/console.js",
+        "/home/harry/.meteor/packages/es5-shim/4.8.1-beta300.6/web.browser/cordova.js",
+        "/home/harry/.meteor/packages/es5-shim/4.8.1-beta300.6/web.browser/export_globals.js",
+        "/home/harry/.meteor/packages/es5-shim/4.8.1-beta300.6/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/home/harry/.meteor/packages/ecmascript/0.16.8-beta300.6/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/home/harry/.meteor/packages/shell-server/0.6.0-beta300.6/web.browser/main.js",
+        "/home/harry/.meteor/packages/shell-server/0.6.0-beta300.6/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/home/harry/.meteor/packages/hot-module-replacement/0.5.4-beta300.6/web.browser/hot-api.js",
+        "/home/harry/.meteor/packages/hot-module-replacement/0.5.4-beta300.6/web.browser/client.js",
+        "/home/harry/.meteor/packages/hot-module-replacement/0.5.4-beta300.6/web.browser/server.js"
+      ],
+      "meteor/blaze": [
+        "/home/harry/.meteor/packages/blaze/3.0.0-alpha300.17/web.browser/preamble.js",
+        "/home/harry/.meteor/packages/blaze/3.0.0-alpha300.17/web.browser/dombackend.js",
+        "/home/harry/.meteor/packages/blaze/3.0.0-alpha300.17/web.browser/domrange.js",
+        "/home/harry/.meteor/packages/blaze/3.0.0-alpha300.17/web.browser/events.js",
+        "/home/harry/.meteor/packages/blaze/3.0.0-alpha300.17/web.browser/attrs.js",
+        "/home/harry/.meteor/packages/blaze/3.0.0-alpha300.17/web.browser/materializer.js",
+        "/home/harry/.meteor/packages/blaze/3.0.0-alpha300.17/web.browser/exceptions.js",
+        "/home/harry/.meteor/packages/blaze/3.0.0-alpha300.17/web.browser/view.js",
+        "/home/harry/.meteor/packages/blaze/3.0.0-alpha300.17/web.browser/builtins.js",
+        "/home/harry/.meteor/packages/blaze/3.0.0-alpha300.17/web.browser/lookup.js",
+        "/home/harry/.meteor/packages/blaze/3.0.0-alpha300.17/web.browser/template.js",
+        "/home/harry/.meteor/packages/blaze/3.0.0-alpha300.17/web.browser/backcompat.js"
+      ],
+      "meteor/jquery": [
+        "/home/harry/.meteor/packages/jquery/3.0.0/web.browser/main.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
